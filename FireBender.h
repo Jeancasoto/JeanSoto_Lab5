@@ -1,8 +1,11 @@
 #pragma once
 #include "Persona.h"
 #include "Poder.h"
+#include <string>
+#include <stdlib.h>
+using namespace std;
 
-class FireBender public:Persona{
+class FireBender :public Persona{
 
     public:
         string ncicatrices;

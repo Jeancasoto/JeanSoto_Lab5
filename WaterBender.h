@@ -1,12 +1,15 @@
 #pragma once
 #include "Persona.h"
 #include "Poder.h"
+#include <string>
+#include <stdlib.h>
+using namespace std;
 
-class WaterBender public:Persona{
+class WaterBender :public Persona{
 
     public:
-        string ncicatrices;
-        string nvictorias;
+        string tribu;
+        string arma;
         Poder* poder;
 
         WaterBender();
@@ -14,12 +17,12 @@ class WaterBender public:Persona{
         WaterBender(string, string, string ,string , string ,string, Poder*);
 
         //setter
-        void setCicatrices(string);
-        void setVictorias(string);
+        void setTribu(string);
+        void setArma(string);
         void setPoder(Poder*);
 
         //getter
-        string getCicatrices();
-        string getVictorias();
+        string getTribu();
+        string getArma();
         Poder* getPoder();
 };

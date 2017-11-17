@@ -1,8 +1,11 @@
 #pragma once
 #include "Persona.h"
 #include "Poder.h"
+#include <string>
+#include <stdlib.h>
+using namespace std;
 
-class AirBender public:Persona{
+class AirBender :public Persona{
 
     public:
         string cantpelo;

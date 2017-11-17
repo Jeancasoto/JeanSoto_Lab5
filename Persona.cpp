@@ -1,5 +1,13 @@
 #include "Persona.h"
 
+Persona::Persona(){
+    nacion="";
+    nombre="";
+    edad="";
+    sexo="";
+
+}
+
 Persona::Persona(string pNacion, string pNombre, string pEdad, string pSexo){
 
     nacion=pNacion;
