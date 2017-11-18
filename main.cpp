@@ -104,13 +104,13 @@ int main(){
             break;
             //fin case a
             case 'b':{
-                cout<<"CASOB"<<endl;
+                cout<<"No Elimina"<<endl;
                  
             }
             break;
             //fin case b
             case 'c':{
-                 cout<<"CASOC"<<endl;
+                 cout<<"Escribe en el archivo los non benders , ojo porfa en eso!"<<endl;
 
             }
             break;
