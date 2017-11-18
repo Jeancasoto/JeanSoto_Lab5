@@ -1,1 +1,9 @@
-PENE
+--NONBENDER--
+Nacion: uno
+Nombre: dos
+Edad: tres
+Sexo: cuatro
+Trabajo: cinco
+Fuerza: seis
+Velocidad: siete
+

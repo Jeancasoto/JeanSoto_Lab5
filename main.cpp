@@ -34,12 +34,12 @@ int main(){
              
             case 'a':{//switch de opciones
                 char maestro;
-                cout<<"A)Agregar maestro \nB)Agregar normalmente"<<endl;
+                cout<<"a)Agregar maestro \nb)Agregar normalmente"<<endl;
                 cin>>maestro;
-                if(maestro=='A'){
+                if(maestro=='a'){
 
                 }
-                if(maestro=='B'){
+                if(maestro=='b'){
                      string cadena="";
                     string nacion;
                     string nombre;
@@ -49,27 +49,44 @@ int main(){
                     string fuerza;
                     string velocidad;
 
+                    cadena+="--NONBENDER--";
+                    cadena+="\n";
                     cout<<"Ingrese nacion"<<endl;
+                    cadena+="Nacion: ";
                     cin>>nacion;
                     cadena+=nacion;
+                    cadena+="\n";
                     cout<<"Ingrese nombre"<<endl;
+                    cadena+="Nombre: ";
                     cin>>nombre;
                     cadena+=nombre;
+                    cadena+="\n";
                     cout<<"Ingrese edad"<<endl;
+                    cadena+="Edad: ";
                     cin>>edad;
                     cadena+=edad;
+                    cadena+="\n";
                     cout<<"Ingrese sexo"<<endl;
+                    cadena+="Sexo: ";
                     cin>>sexo;
                     cadena+=sexo;
+                    cadena+="\n";
                     cout<<"Ingrese trabajo"<<endl;
+                    cadena+="Trabajo: ";
                     cin>>trabajo;
                     cadena+=trabajo;
+                    cadena+="\n";
                     cout<<"Ingrese fuerza"<<endl;
+                    cadena+="Fuerza: ";
                     cin>>fuerza;
                     cadena+=fuerza;
+                    cadena+="\n";
                     cout<<"Ingrese velocidad"<<endl;
+                    cadena+="Velocidad: ";
                     cin>>velocidad;
                     cadena+=velocidad;
+                    cadena+="\n";
+                    cadena+="\n";
 
                    Persona* non= new NonBender(nacion, nombre, edad, sexo, trabajo, fuerza, velocidad );
                     
