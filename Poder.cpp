@@ -2,6 +2,12 @@
 #include <iostream>
 #include <string>
 
+Poder::Poder(){
+    nombrep="";
+    nivelpoder="";
+
+}
+
 Poder::Poder(string pNombre, string pNivel){
     nombrep=pNombre;
     nivelpoder=pNivel;
